@@ -55,3 +55,7 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
+function copiar(){
+    const textoCopiado = mensaje.value;
+    navigator.clipboard.writeText(textoCopiado);
+}
