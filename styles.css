@@ -34,21 +34,20 @@ main{
     }
 
 
-.mensaje {
+ .mensaje{
+    height: 630px;
     background: white;
-    background-image: url("/Imagenes/Muñeco.png");
+    background-image: url("/imagenes/Muñeco.png");
     background-repeat: no-repeat;
+    background-position: center;
     border: none;
     border-radius: 24px;
-    color:#0A3871;
+    color: #0A3871;
     margin-left: 98px;
-    margin-top: 100px;
+    margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
-    
-}
-
-
+     position: fixed;
+ }
 
 
 .mensaje:focus {
@@ -99,8 +98,8 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 122px;
-    margin-top: 502px;
+    margin-left: 120px;
+    margin-top: 565px;
     position:absolute;
     width: 336px;
 }
